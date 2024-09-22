@@ -11,3 +11,7 @@ while True:
         break
     else:
         print("invalid Choice")
+
+# TODO:
+# Modify the Program so that user can specify how many dice they want to roll
+# Add a feature that keep s track of how many times the user has rolled the dice during the session
