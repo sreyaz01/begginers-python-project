@@ -1,7 +1,7 @@
 import random
 
 
-def get_upper_limit():
+def get_upper_limit(low):
     """Prompt the user for a valid upper limit.
     Ensure the lower limit is less than the upper limit."""
 
@@ -45,7 +45,7 @@ def main():
     choices = ("c", "h", "l")
 
     # Get the upper limit from the user
-    high = get_upper_limit()
+    high = get_upper_limit(low)
 
     # Initial computer guess
     comp_guess = make_guess(low, high)
