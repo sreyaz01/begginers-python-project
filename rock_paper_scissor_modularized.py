@@ -62,6 +62,6 @@ def play():
 play()
 
 # TODO
-# limit game round to 5 and calculate score in every round print scores and announce winner based on score.
+# limit game round to 3 and calculate score in every round print scores and announce winner based on score.
 # print continue play option after the announcement of winner.
 # reset score after continue and Repeat the process.
