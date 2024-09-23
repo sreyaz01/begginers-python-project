@@ -6,7 +6,6 @@ def get_upper_limit():
     Ensure the lower limit is less than the upper limit."""
 
     while True:
-        low = 1
         try:
             high = int(input("Please provide the higher limit: "))
             while low >= high:
